@@ -1,0 +1,17 @@
+{
+  "name": "yoshiptero",
+  "version": "1.0.0",
+  "description": "Telegram Bot untuk mengotomatisasi instalasi panel Pterodactyl melalui SSH",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Yoshi",
+  "license": "MIT",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "node-fetch": "^3.3.2",
+    "node-telegram-bot-api": "^0.64.0",
+    "ssh2": "^1.15.0"
+  }
+}
